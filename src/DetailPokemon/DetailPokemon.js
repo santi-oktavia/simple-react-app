@@ -104,7 +104,7 @@ export default class DetailPokemon extends Component {
                     this.state.linkReady ?
                         <button className="btn btn-primary"><a className="download-link" href={`data: ${this.state.downloadedData}`} 
                         download={`${this.state.detailPokemon.name}.json`}>Download JSON</a></button>
-                        : <button onClick={this.download}> Prepare link </button>
+                        : <button onClick={this.download}> Show the link </button>
                     }
                     </div>
                 </div>
