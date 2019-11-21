@@ -1,0 +1,40 @@
+.App {
+  border: 1px solid black;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+#root {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.content {
+  padding: 10px;
+}
+
+ul li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-pokemon li {
+  cursor: pointer;
+  text-transform: capitalize;
+}

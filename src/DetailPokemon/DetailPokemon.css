@@ -1,0 +1,23 @@
+.title-wrapper {
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: 400;
+}
+.detail-container {
+    margin: 50px 0;
+    background-color: #e7e9ea;
+    border-radius: 15px;
+    padding: 15px;
+}
+table {
+    font-size: 13px;
+    font-weight: 100;
+    font-family: monospace;
+}
+.property {
+    vertical-align: top;
+    text-align: left;
+}
+.download-link {
+    color: white !important;
+}
