@@ -21,7 +21,7 @@ export default class DetailPokemon extends Component {
     //Function which is called whenver the component is updated
     componentDidUpdate(prevProps) {
 
-        //get Customer Details only if props has changed
+        //get Pokemon Details only if props has changed
         if (this.props.url !== prevProps.url) {
             this.getDetailPokemon(this.props.url)
         }
@@ -34,7 +34,6 @@ export default class DetailPokemon extends Component {
                 linkReady: true,
                 downloadedData: "text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(response.data))
             })
-            // console.log(this.state.detailPokemon);
         })
         .catch(err => {
             console.log('11', err)

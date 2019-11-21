@@ -40,7 +40,6 @@ export default class Pokemon extends Component {
                 {
                     this.state.listPokemon.results.map(pokemon => <li key={pokemon.name} className="centeralign" 
                         onClick={() => this.setState({selectedPokemon: pokemon.url})}>
-                        {/* <link exact to="/detailPokemon/ditto"> */}
                     {pokemon.name}
                 </li>)
                 }
