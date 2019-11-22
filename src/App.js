@@ -26,7 +26,6 @@ function App() {
         <div className="content">
           <Route exact path="/" component={Home}/>
           <Route exact path="/pokemon" component={Pokemon}/>
-          <Route path="/detailPokemon/:pokemonName" component={DetailPokemon} />
         </div>
       </div>
     </HashRouter>

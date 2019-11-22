@@ -66,8 +66,8 @@ export default class DetailPokemon extends Component {
                                 <th className="property">:</th>
                                 <th>
                                     {
-                                        this.state.detailPokemon.abilities.slice(0, 5).map(ability => 
-                                        <li key={ability.ability.url} className="" >
+                                        this.state.detailPokemon.abilities.slice(0, 5).map((ability, index) => 
+                                        <li key={index}>
                                             {ability.ability.name}
                                         </li>)
                                     }
@@ -78,8 +78,8 @@ export default class DetailPokemon extends Component {
                                 <th className="property">:</th>
                                 <th>
                                     {
-                                        this.state.detailPokemon.stats.slice(0, 5).map(stat => 
-                                        <li key={stat.base_stat} className="" >
+                                        this.state.detailPokemon.stats.slice(0, 5).map((stat, index) => 
+                                        <li key={index}>
                                             {stat.stat.name}
                                         </li>)
                                     }
@@ -90,8 +90,8 @@ export default class DetailPokemon extends Component {
                                 <th className="property">:</th>
                                 <th>
                                     {
-                                        this.state.detailPokemon.moves.slice(0, 5).map(move => 
-                                        <li key={move.move.url} className="" >
+                                        this.state.detailPokemon.moves.slice(0, 5).map((move, index) => 
+                                        <li key={index}>
                                             {move.move.name}
                                         </li>)
                                     }
